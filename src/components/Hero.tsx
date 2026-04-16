@@ -65,15 +65,21 @@ function Hero() {
             {t('subtitle')}
           </p>
           <p className="text-bolder sm:text-md text-slate-600 dark:text-gray-300">
-            {t("subDescription")}
+            {t('subDescription')}
           </p>
         </div>
         <div className="flex items-center gap-4 flex-wrap">
-          <button onClick={handleProjectsClick} className="px-4 py-2  bg-purple-500 text-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer">
+          <button
+            onClick={handleProjectsClick}
+            className="px-4 py-2  bg-purple-500 text-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+          >
             {t('projectsButton')}
           </button>
 
-          <button onClick={handleContactClick} className="ml-4 px-4 py-2 border text-black dark:text-white border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 dark:hover:bg-gray-500">
+          <button
+            onClick={handleContactClick}
+            className="ml-4 px-4 py-2 border text-black dark:text-white border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 dark:hover:bg-gray-500"
+          >
             {t('contactButton')}
           </button>
           <span
@@ -91,14 +97,17 @@ function Hero() {
           </p>
 
           <div className="flex items-center gap-3">
-            <a href='https://github.com/abbosaliy' target='_blank' className="h-10 w-10 flex items-center justify-center rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition cursor-pointer">
+            <a
+              href="https://github.com/abbosaliy"
+              target="_blank"
+              className="h-10 w-10 flex items-center justify-center rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition cursor-pointer"
+            >
               <FaGithub className="text-gray-600 dark:text-gray-400" />
             </a>
 
             <a className="h-10 w-10 flex items-center justify-center rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition cursor-pointer">
               <FaLinkedinIn className="text-gray-600 dark:text-gray-400" />
             </a>
-
           </div>
         </div>
 
@@ -113,7 +122,7 @@ function Hero() {
             React
           </span>
           <span className="font-mono border border-gray-300 dark:border-gray-700 dark:bg-gray-800 px-2 py-1 rounded-xl">
-            Tailwind  CSS
+            Tailwind CSS
           </span>
         </div>
       </div>
@@ -136,7 +145,7 @@ function Hero() {
           }}
           className="relative"
         >
-          <div className="w-82 aspect-square overflow-hidden rounded-full shadow-[0_15px_15px_rgba(0,0,0,0.1)]">
+          <div className="w-80 aspect-square overflow-hidden rounded-full shadow-[0_15px_15px_rgba(0,0,0,0.1)]">
             <img
               src="images/person.png"
               alt="Profile"

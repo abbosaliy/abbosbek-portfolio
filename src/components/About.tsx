@@ -79,7 +79,7 @@ function About() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.3 }}
         viewport={{ once: false, amount: 0.3 }}
-        className="flex items-center   gap-6 overflow-x-auto py-4 custom-scrollbar"
+        className="flex flex-col sm:flex-row items-center gap-6 overflow-x-auto sm:overflow-x-auto py-4 custom-scrollbar"
       >
         {data.map((item, i) => (
           <div
@@ -127,15 +127,15 @@ function About() {
               </span>
 
               <div className="flex flex-wrap gap-2 mt-2">
-                    {item.description.map((desc: string, i: number) => (
-                        <span
-                        key={i}
-                        className="text-xs font-medium  text-gray-600 dark:text-gray-300"
-                        >
-                        {desc}
-                        </span>
-                    ))}
-                </div>
+                {item.description.map((desc: string, i: number) => (
+                  <span
+                    key={i}
+                    className="text-xs font-medium  text-gray-600 dark:text-gray-300"
+                  >
+                    {desc}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         ))}

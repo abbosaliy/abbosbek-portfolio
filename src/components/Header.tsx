@@ -90,10 +90,10 @@ export function Header() {
               animate={{ x: '0%' }}
               exit={{ x: '100%' }}
               transition={{ duration: 0.3, ease: 'easeInOut' }}
-              className="fixed top-0 right-0 h-screen w-[80%] max-w-sm z-50 
+              className="fixed top-0 right-0 h-screen w-[85%] sm:w-[70%] max-w-xs z-50 
                    bg-white dark:bg-gray-900 
                    border-l border-gray-200/80 dark:border-gray-700/80 
-                   shadow-xl p-5"
+                   shadow-xl p-4 sm:p-5 overflow-y-auto"
             >
               <div className="flex items-center justify-between mb-6 border-b border-gray-200/80 dark:border-gray-700/80 pb-4">
                 <div className="flex items-center gap-2">
