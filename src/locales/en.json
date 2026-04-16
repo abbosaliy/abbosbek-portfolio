@@ -1,0 +1,164 @@
+{
+  "about": "About",
+  "projects": "Projects",
+  "skills": "Skills",
+  "contact": "Contact",
+  "status": "Open for new projects",
+  "title": "Frontend Developer",
+  "subtitle": "I build scalable and high-performance web applications using React and TypeScript, focusing on clean code and modern, user-friendly interfaces.",
+  "subDescription":"My focus is on building well-structured and maintainable frontend architectures with reusable components and thoughtful state management. I place strong emphasis on performance, scalability, and intuitive user experience.",
+  "projectsButton": "View Projects",
+  "contactButton": "Contact",
+  "location": "Germany · Available for on-site & remote · German, English",
+  "aboutTitle": "My journey as a developer: From simple HTML pages to scalable React applications and my own SaaS projects ",
+  "aboutContent": "Frontend Developer specialized in React and TypeScript. Experienced in building modern web applications with a focus on scalable architecture, performance, and user-friendly interfaces. Clean code, clear structure, and continuous learning are at the core of my work.",
+  "journey": "Development Journey",
+  "scrollHint": "Scroll horizontally  to see more",
+  "experience": [
+    {
+      "period": "10/2024 - 10/2025",
+      "company": "PDP Academy",
+      "role": "Frontend Developer",
+      "location": "Remote",
+      "description": [" HTML", "CSS/SCSS", "JavaScript", "Responsive Design"]
+    },
+    {
+      "period": "10/2024 - 10/2025",
+      "company": "DevKarriere",
+      "role": "Qualified Web Developer Front-End",
+      "location": "Remote",
+      "description": [
+        " HTML",
+        "CSS/SCSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Git",
+        "GitHub",
+        "Rest API",
+        "Ajax",
+        "Webpack",
+        "Vite"
+      ]
+    },
+    {
+      "period": "10/2025 - present",
+      "company": "Own Project",
+      "role": "Frontend Developer",
+      "location": "Remote",
+      "description": [
+        " HTML",
+        "CSS/SCSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Git",
+        "GitHub",
+        "Rest API",
+        "Vite",
+        "Supabase",
+        "SQL",
+        "SaaS Project"
+      ]
+    },
+    {
+      "period": "Next",
+      "company": "Your Company",
+      "role": "Frontend Developer",
+      "location": "Open to opportunities",
+      "description": [
+        "Ready for the next challenge",
+        "Looking for impactful projects",
+        "Let’s build something great together"
+      ]
+    }
+  ],
+  "skillsTitle": "My Skills",
+  "skillsSubtitle": "Technologies I work with – from idea to production-ready applications.",
+  "skillsContent": "My focus is on developing scalable frontend applications with thoughtful architecture, clean structure, and a strong attention to UI/UX.",
+  "technologiesTitle": "Languages & Frameworks",
+  "technologiesSubtitle": "Core stack for modern web applications – from single-page apps to fully integrated platforms.",
+  "uiTitle": "UI & Styling",
+  "uiSubtitle": "Modern design systems and UI frameworks for building consistent, aesthetic, and responsive user interfaces.",
+  "apiTitle": "Backend-related Technologies",
+  "apiSubtitle": "Structured content, clean interfaces, and reliable integrations into existing systems.",
+  "toolsTitle": "Tools & Workflow",
+  "toolsSubtitle": "Build tools, version control, and modern development environments for efficient and productive workflows.",
+  "projectsTitle": "Projects",
+  "projectsSubtitle": "A selection of projects that demonstrate my skills and experience in frontend development, showcasing my ability to build scalable and user-friendly web applications.",
+  "projectsDescription":"The focus is on well-structured frontend architectures, reusable components, and thoughtful user experience. Each project reflects my approach to clean code, performance, and modern UI/UX standards.",
+  "close":"Close",
+  "details":"More details",
+  "resources": [
+    {
+      "id": 1,
+      "image": "images/flowdex.png",
+      "title": "Flowdex",
+      "description": "SaaS platform for managing and optimizing collaborative workflows.",
+      "fulldescription": "Flowdex is a self-developed, SaaS-like platform designed to manage collaborative workflows. The application allows users to organize complex processes, coordinate tasks efficiently, and track progress in real time. With a clear and structured interface and a scalable architecture, it ensures a stable and high-performance user experience. The focus was on reusable components, well-structured state management, and an intuitive design to support efficient teamwork.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Supabase"],
+      "live": "https://flowdeex.netlify.app"
+    },
+    {
+      "id": 2,
+      "image": "images/cargoSync.png",
+      "title": "CargoSync",
+      "description": "SaaS-like logistics platform for real-time delivery management.",
+      "fulldescription": "CargoSync is a self-developed, SaaS-like logistics platform designed for efficient management and real-time tracking of delivery processes. The application provides a clear and structured user interface that allows users to monitor shipment statuses in an intuitive way. By implementing a scalable architecture and optimized data handling, a stable and responsive user experience is ensured. The focus was on modular components, efficient data flows, and an intuitive design to simplify complex logistics operations.",
+      "technologies": ["TypeScript", "React", "Tailwind CSS", "Supabase"],
+      "live": "https://cargosync.abbosbek-anvarjonov.com"
+    },
+    {
+      "id": 3,
+      "image": "images/portfolio.png",
+      "title": "This Portfolio",
+      "description": "Modern multilingual portfolio website showcasing projects and technical skills.",
+      "fulldescription": "This portfolio was developed as a modern, multilingual web application to clearly present my projects, skills, and development approach. It combines interactive components, subtle animations, and a clean layout to create a smooth user experience. The focus is on clean code, scalable architecture, and intuitive design to present complex content in a simple and structured way.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Motion", "Vite"]
+    },
+    {
+      "id": 4,
+      "image": "images/weatherApp.png",
+      "title": "Weather App",
+      "description": "Modern weather app for displaying real-time weather data worldwide.",
+      "fulldescription": "This weather app was developed as a modern, user-friendly application to display real-time weather data for cities around the world. Built with a mobile-first approach, it is optimized for various screen sizes and devices. Users can search for locations, save them to a favorites list, and manage their personalized list easily. The focus was on a clean interface, fast data display, and an intuitive user experience.",
+      "technologies": ["HTML", "JavaScript", "SCSS", "VIte", "Weather API"],
+      "live": "https://wetter-app.abbosbek-anvarjonov.com"
+    },
+    {
+      "id": 5,
+      "image": "images/witzeApp.png",
+      "title": "Joke App",
+      "description": "Humorous joke app with modern design and API integration.",
+      "fulldescription": "This joke app was developed with a focus on modern design and a smooth user experience. The application is fully responsive and adapts seamlessly to different devices and screen sizes. It features both light and dark modes and allows users to fetch random jokes from an external API. The goal was to create a simple, entertaining, and easily accessible app that delivers a quick moment of humor anytime.",
+      "technologies": [" HTML", "SCSS", "JavaScript", "Vite", "BEM", "AJAX"],
+      "live": "https://witze-app.abbosbek-anvarjonov.com"
+    }
+  ],
+  "contactTitel": "New Career Opportunities",
+  "contactDescription": "Seeking a frontend developer position where I can apply and further develop my skills in building modern web applications.",
+  "info": {
+    "titel": "Contact Information",
+    "description": "For job inquiries or open positions, feel free to reach out directly.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone"
+  },
+
+  "availability": {
+    "label": "Availability",
+    "value": "Currently open to new opportunities"
+  },
+
+  "social": {
+    "titel": "Network & Profiles",
+    "description": "Profiles for more context on projects, tech stack and track record.",
+    "linkedin": "Professional background and project context.",
+    "github": "Codebase, components and experiments."
+  },
+  "footerdescription": "Frontend Developer focused on building scalable web applications, modern UI/UX, and clean, maintainable code.",
+  "footerContact": "Direct Contact",
+  "footerSocial": "Network",
+  "imprint": "Imprint (DE)",
+  "policy": "Privacy policy (DE)",
+  "footerRights": "All rights reserved."
+}

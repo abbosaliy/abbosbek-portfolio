@@ -1,0 +1,197 @@
+{
+  "about": "Über mich",
+  "projects": "Projekte",
+  "skills": "Fähigkeiten",
+  "contact": "Kontakt",
+  "status": "Offen für neue Projekte",
+  "title": "Frontend - Entwickler",
+  "subtitle": "Ich entwickle skalierbare und performante Webanwendungen mit React und TypeScript und verbinde sauberen Code mit modernen, benutzerfreundlichen und ästhetischen Interfaces.",
+  "subDescription":"Mein Fokus liegt auf der Entwicklung klar strukturierter, wartbarer Frontend-Architekturen mit wiederverwendbaren Komponenten und durchdachtem State-Management. Dabei lege ich großen Wert auf Performance, Skalierbarkeit und eine intuitive User Experience.",
+  "projectsButton": "Projekte ansehen",
+  "contactButton": "Kontakt",
+  "location": "Deutschland · Vor Ort & Remote verfügbar · Deutsch, Englisch",
+  "aboutTitle": "Meine Reise als Entwickler: Von einfachen HTML-Seiten zu skalierbaren React-Anwendungen und meinen eigenen SaaS-Projekten",
+  "aboutContent": "Ich bin Frontend Developer mit Fokus auf React und TypeScript. Ich entwickle moderne Webanwendungen und lege großen Wert auf skalierbare Architektur, Performance und intuitive Benutzeroberflächen. Sauberer Code und kontinuierliches Lernen sind für mich selbstverständlich.",
+  "journey": "Entwicklungsweg",
+  "scrollHint": "Horizontal scrollen, um mehr zu sehen",
+  "experience": [
+    {
+      "period": "10/2024 - 10/2025",
+      "company": "PDP Academy",
+      "role": "Frontend Developer",
+      "location": "Remote",
+      "description": [" HTML", "CSS/SCSS", "JavaScript", "Responsive Design"]
+    },
+    {
+      "period": "10/2024 - 10/2025",
+      "company": "DevKarriere",
+      "role": "Qualifizierte Webentwickler Front-End",
+      "location": "Remote",
+      "description": [
+        " HTML",
+        "CSS/SCSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Git",
+        "GitHub",
+        "Rest API",
+        "Ajax",
+        "Webpack",
+        "Vite"
+      ]
+    },
+    {
+      "period": "10/2025 - bis jetzt",
+      "company": "Eigenes Projekt",
+      "role": "Frontend Developer",
+      "location": "Remote",
+      "description": [
+        " HTML",
+        "CSS/SCSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Git",
+        "GitHub",
+        "Rest API",
+        "Vite",
+        "Supabase",
+        "SQL",
+        "SaaS Projekt"
+      ]
+    },
+    {
+      "period": "Nächster Schritt",
+      "company": "Ihr Unternehmen",
+      "role": "Frontend Entwickler",
+      "location": "Offen für neue Möglichkeiten",
+      "description": [
+        "Bereit für die nächste Herausforderung",
+        "Auf der Suche nach spannenden Projekten",
+        "Lassen Sie uns gemeinsam etwas Großartiges bauen"
+      ]
+    }
+  ],
+  "skillsTitle": "Meine Fähigkeiten",
+  "skillsSubtitle": "Technologien, mit denen ich arbeite – von der Idee bis zur produktiven Anwendung.",
+  "skillsContent": "Mein Schwerpunkt liegt auf der Entwicklung skalierbarer Frontend-Anwendungen mit durchdachter Architektur, klarer Struktur und einem starken Fokus auf UI/UX.",
+  "technologiesTitle": "Sprachen & Frameworks",
+  "technologiesSubtitle": "Kernstack für moderne Webanwendungen – von Single-Page-Apps bis hin zu integrierten Plattformlösungen.",
+  "uiTitle": "UI & Styling",
+  "uiSubtitle": "Moderne Designsysteme und UI-Frameworks zur Erstellung konsistenter, ästhetischer und responsiver Benutzeroberflächen.",
+  "apiTitle": "Backend-nahe Technologien",
+  "apiSubtitle": "Strukturierte Inhalte, saubere Schnittstellen und stabile Integrationen in bestehende Systeme.",
+  "toolsTitle": "Tools & Workflow",
+  "toolsSubtitle": "Build-Tools, Versionskontrolle und moderne Entwicklungsumgebungen für effiziente und produktive Workflows.",
+  "projectsTitle": "Projekte",
+  "projectsSubtitle": "Eine Auswahl meiner Arbeiten – von persönlichen Projekten bis hin zu professionellen Anwendungen, die ich entwickelt habe.",
+  "projectsDescription":"Der Fokus liegt auf klar strukturierten Frontend-Architekturen, wiederverwendbaren Komponenten und einer durchdachten Benutzerführung. Jedes Projekt spiegelt meinen Anspruch an sauberen Code, Performance und moderne UI/UX-Standards wider.",
+  "close":"Schließen",
+  "details":"Mehr Details",
+  "resources": [
+    {
+      "id": 1,
+      "image": "images/flowdex.png",
+      "title": "Flowdex - SaaS Plattform für Workflow-Management",
+      "description": "SaaS-Plattform zur Verwaltung und Optimierung kollaborativer Workflows.",
+      "fulldescription": "Flowdex ist eine eigenständig entwickelte, SaaS-ähnliche Plattform zur Verwaltung kollaborativer Workflows. Die Anwendung ermöglicht es, komplexe Arbeitsprozesse übersichtlich zu organisieren, Aufgaben effizient zu koordinieren und den Fortschritt in Echtzeit zu verfolgen. Durch eine klar strukturierte Oberfläche und eine skalierbare Architektur wird eine stabile und performante Nutzererfahrung gewährleistet. Der Fokus lag auf wiederverwendbaren Komponenten, einer durchdachten Zustandsverwaltung und einer intuitiven Benutzerführung, um effizientes Arbeiten im Team zu unterstützen.",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Supabase"
+      ],
+      "live": "https://flowdeex.netlify.app",
+      "liveGithub":"https://github.com/abbosaliy/Flowdex"
+    },
+    {
+      "id": 2,
+      "image": "images/cargoSync.png",
+      "title": "CargoSync",
+      "description": "SaaS-ähnliche Logistikplattform zur Echtzeit-Verwaltung von Lieferprozessen.",
+      "fulldescription": "CargoSync ist eine eigenständig entwickelte, SaaS-ähnliche Logistikplattform zur effizienten Verwaltung und Nachverfolgung von Lieferprozessen in Echtzeit. Die Anwendung bietet eine klare und strukturierte Benutzeroberfläche, die es ermöglicht, den aktuellen Status von Sendungen jederzeit übersichtlich darzustellen. Durch die Implementierung einer skalierbaren Architektur und performanter Datenverarbeitung wird eine stabile und reaktionsschnelle Nutzererfahrung gewährleistet. Der Fokus lag auf modularen Komponenten, optimierten Datenflüssen und einer intuitiven Bedienung, um komplexe Logistikprozesse einfach und verständlich abzubilden.",
+      "technologies": [
+        "TypeScript",
+        "React",
+        "Tailwind CSS",
+        "Supabase"
+      ],
+      "live": "https://cargosync.abbosbek-anvarjonov.com",
+      "liveGithub":"https://github.com/abbosaliy/CargoSync"
+    },
+    {
+      "id": 3,
+      "image": "images/portfolio.png",
+      "title": "Dieses Portfolio",
+      "description": "Moderne, mehrsprachige Portfolio-Seite zur Präsentation von Projekten und Fähigkeiten.",
+      "fulldescription": "Dieses Portfolio wurde als moderne, mehrsprachige Webanwendung entwickelt, um meine Projekte, Fähigkeiten und Arbeitsweise klar und strukturiert darzustellen. Die Anwendung kombiniert interaktive Komponenten, dezente Animationen und ein übersichtliches Layout, um eine angenehme Nutzererfahrung zu schaffen. Der Fokus liegt auf sauberem Code, einer skalierbaren Architektur und einer durchdachten Benutzerführung, um komplexe Inhalte einfach und verständlich zu präsentieren.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Motion",
+        "Vite"
+      ],
+      "live": "#"
+    
+    },
+    {
+      "id": 4,
+      "image": "images/weatherApp.png",
+      "title": "Wetter App",
+      "description": "Moderne Wetter-App zur Anzeige aktueller Wetterdaten weltweit.",
+      "fulldescription": "Diese Wetter-App wurde als moderne, benutzerfreundliche Anwendung entwickelt, um aktuelle Wetterdaten für Städte weltweit übersichtlich darzustellen. Die Anwendung folgt einem Mobile-First-Ansatz und ist für verschiedene Bildschirmgrößen optimiert. Nutzer haben die Möglichkeit, Städte zu suchen, als Favoriten zu speichern und ihre persönliche Liste flexibel zu verwalten. Der Fokus lag auf einer klaren Benutzeroberfläche, schneller Datenanzeige und einer intuitiven Bedienung.",
+      "technologies": [
+        "HTML",
+        "JavaScript",
+        "SCSS",
+        "VIte",
+        "Weather API"
+      ],
+      "live": "https://wetter-app.abbosbek-anvarjonov.com",
+      "liveGithub":"https://github.com/abbosaliy/Wetter-App"
+    },
+    {
+      "id": 5,
+      "image": "images/witzeApp.png",
+      "title": "Witze App",
+      "description": "Humorvolle Witze-App mit modernem Design und API-Integration.",
+      "fulldescription": "Diese Witze-App wurde mit Fokus auf modernes Design und eine angenehme Benutzererfahrung entwickelt. Die Anwendung ist vollständig responsive und passt sich nahtlos an verschiedene Geräte und Bildschirmgrößen an. Sie bietet sowohl einen hellen als auch einen dunklen Modus und ermöglicht es, zufällige Witze über eine externe API zu laden. Ziel war es, eine einfache, unterhaltsame und schnell zugängliche Anwendung zu schaffen, die Nutzern jederzeit einen kleinen humorvollen Moment bietet.",
+      "technologies": [
+        " HTML",
+        "SCSS",
+        "JavaScript",
+        "Vite",
+        "BEM",
+        "AJAX"
+      ],
+      "live": "https://witze-app.abbosbek-anvarjonov.com",
+      "liveGithub":"https://github.com/abbosaliy/Witze-app"
+    }
+  ],
+  "contactTitel": "Neue berufliche Perspektiven",
+  "contactDescription": "Auf der Suche nach einer Position als Frontend Developer, in der ich meine Fähigkeiten in der Entwicklung moderner Webanwendungen gezielt einsetzen und weiterentwickeln kann.",
+  "info": {
+    "titel": "Kontaktinformationen",
+    "description": "Für berufliche Anfragen oder offene Positionen erreichen Sie mich direkt.",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon"
+  },
+  "availability": {
+    "label": "Verfügbarkeit",
+    "value": "Aktuell offen für neue berufliche Möglichkeiten"
+  },
+  "social": {
+    "titel": "Profile & Netzwerk",
+    "description": "Profile für mehr Kontext zu Projekten, Tech-Stack und Werdegang.",
+    "linkedin": "Beruflicher Werdegang und Projektkontext.",
+    "github": "Code-Basis, Komponenten und Experimente."
+  },
+  "footerdescription": "Frontend Developer mit Fokus auf skalierbare Webanwendungen, moderne UI/UX und sauberen Code.",
+  "footerContact": "Direkter Kontakt",
+  "footerSocial": "Netzwerk",
+  "imprint": "Impressum",
+  "policy": "Datenschutz",
+  "footerRights": "Alle Rechte vorbehalten."
+}
