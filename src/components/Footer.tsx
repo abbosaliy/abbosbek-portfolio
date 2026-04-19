@@ -11,10 +11,9 @@ function Footer() {
 
   return (
     <section className="border-t border-gray-200 dark:border-gray-700">
-     
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 pt-10 lg:px-8 pb-10">
         <div className="flex flex-col md:flex-row justify-between gap-10">
-          <div className="max-w-sm flex flex-col gap-3">
+          <div className="w-full sm:max-w-sm flex flex-col gap-3">
             <div className="flex items-center gap-2 cursor-pointer">
               <div className="relative h-14 w-14 flex items-center justify-center hover:scale-105 duration-300">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 blur-lg opacity-25"></div>
@@ -31,13 +30,11 @@ function Footer() {
               </span>
             </div>
             <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-              {t("footerdescription")}
+              {t('footerdescription')}
             </p>
           </div>
 
-     
           <div className="flex flex-col sm:flex-row gap-10">
-    
             <div className="flex flex-col gap-3">
               <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
                 Navigation
@@ -46,22 +43,31 @@ function Footer() {
               <ul className="flex flex-col gap-2 text-sm text-gray-600 dark:text-gray-400">
                 <li>
                   <a href="#about" className="hover:text-purple-500 transition">
-                    {t("about")}
+                    {t('about')}
                   </a>
                 </li>
                 <li>
-                  <a href="#projects" className="hover:text-purple-500 transition">
-                    {t("skills")}
+                  <a
+                    href="#projects"
+                    className="hover:text-purple-500 transition"
+                  >
+                    {t('skills')}
                   </a>
                 </li>
                 <li>
-                  <a href="#skills" className="hover:text-purple-500 transition">
-                    {t("projects")}
+                  <a
+                    href="#skills"
+                    className="hover:text-purple-500 transition"
+                  >
+                    {t('projects')}
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:text-purple-500 transition">
-                    {t("contact")}
+                  <a
+                    href="#contact"
+                    className="hover:text-purple-500 transition"
+                  >
+                    {t('contact')}
                   </a>
                 </li>
               </ul>
@@ -69,12 +75,12 @@ function Footer() {
 
             <div className="flex flex-col gap-4">
               <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
-                {t("footerContact")}
+                {t('footerContact')}
               </h3>
               <div className="flex flex-col gap-3 text-sm">
                 <div className="flex flex-col">
                   <span className="text-xs text-gray-500 dark:text-gray-400">
-                    {t("info.emailLabel")}
+                    {t('info.emailLabel')}
                   </span>
                   <a
                     href="abbosbekanvarjonov8@gmail.com"
@@ -86,7 +92,7 @@ function Footer() {
 
                 <div className="flex flex-col">
                   <span className="text-xs text-gray-500 dark:text-gray-400">
-                    {t("info.phoneLabel")}
+                    {t('info.phoneLabel')}
                   </span>
                   <a
                     href="tel:+49123456789"
@@ -99,7 +105,7 @@ function Footer() {
             </div>
             <div className="flex flex-col gap-3">
               <h3 className="text-sm font-semibold text-gray-900 dark:text-white">
-                {t("footerSocial")}
+                {t('footerSocial')}
               </h3>
 
               <ul className="flex items-center gap-3">
@@ -118,7 +124,7 @@ function Footer() {
                   rel="noopener noreferrer"
                   className="p-2 rounded-full border border-transparent hover:border-black/10 dark:hover:border-purple-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition duration-200"
                 >
-                  <FaLinkedin className="h-5 w-5" />
+                  <FaLinkedin className="h-5 w-5 text-gray-700 dark:text-gray-300" />
                 </a>
               </ul>
             </div>
@@ -126,19 +132,22 @@ function Footer() {
         </div>
       </div>
 
-     
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 pt-6 lg:px-8 pb-10 border-t border-gray-200 dark:border-gray-700">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            © 2026 Abbosbek Anvarjonov. {t("footerRights")}
+            © 2026 Abbosbek Anvarjonov. {t('footerRights')}
           </p>
           <div className="text-xs text-gray-500 dark:text-gray-400 flex gap-4">
-            <button onClick={() => setModal("impressum")}>{t("imprint")}</button>
-            <button onClick={() => setModal("datenschutz")}>{t("policy")}</button>
-            {modal === "impressum" && (
+            <button onClick={() => setModal('impressum')}>
+              {t('imprint')}
+            </button>
+            <button onClick={() => setModal('datenschutz')}>
+              {t('policy')}
+            </button>
+            {modal === 'impressum' && (
               <ImpressumModal onClose={() => setModal(null)} />
             )}
-            {modal === "datenschutz" && (
+            {modal === 'datenschutz' && (
               <DatenschutzModal onClose={() => setModal(null)} />
             )}
           </div>

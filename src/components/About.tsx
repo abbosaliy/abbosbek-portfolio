@@ -84,7 +84,7 @@ function About() {
         {data.map((item, i) => (
           <div
             key={i}
-            className="p-5 max-w-xs min-w-[250px] h-[300px] flex-shrink-0 
+            className="p-5 max-w-xs min-w-[200px] sm:min-w-[250px] h-[300px] flex-shrink-0 
                                 border border-gray-300 dark:border-gray-700 
                                 rounded-xl shadow-md shadow-gray-300/50 dark:shadow-gray-700/50 
                                 hover:shadow-lg transition hover:-translate-y-1 duration-300"

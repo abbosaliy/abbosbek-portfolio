@@ -9,14 +9,14 @@ import Skills from './components/Skills';
 
 export default function App() {
   return (
-    <div className="relative min-h-screen dark:bg-gray-900 text-white ">
-        <Header />
-        <Hero />
-        <About />
-        <Skills />
-        <Projecte/>
-        <Contact/>
-        <Footer/>
+    <div className=" min-h-screen dark:bg-gray-900 text-white ">
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Projecte />
+      <Contact />
+      <Footer />
     </div>
   );
 }

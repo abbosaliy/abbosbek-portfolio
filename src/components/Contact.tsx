@@ -26,7 +26,7 @@ function Contact() {
           viewport={{ once: false, amount: 0.3 }}
           className="text-sm font-semibold tracking-wide uppercase text-purple-500 dark:text-purple-400"
         >
-          {t("contact")}
+          {t('contact')}
         </motion.h2>
 
         <motion.h3
@@ -36,7 +36,7 @@ function Contact() {
           viewport={{ once: false, amount: 0.3 }}
           className="text-2xl font-bold text-gray-900 dark:text-gray-100"
         >
-          {t("contactTitel")}
+          {t('contactTitel')}
         </motion.h3>
 
         <motion.p
@@ -46,7 +46,7 @@ function Contact() {
           viewport={{ once: false, amount: 0.3 }}
           className="text-gray-700 dark:text-gray-300 max-w-3xl"
         >
-          {t("contactDescription")}
+          {t('contactDescription')}
         </motion.p>
       </div>
       <div className="flex flex-col md:flex-row gap-8">
@@ -54,11 +54,11 @@ function Contact() {
           <div className="flex justify-between items-start gap-4">
             <div>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                {t("info.titel")}
+                {t('info.titel')}
               </h3>
 
-              <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 max-w-sm">
-                {t("info.description")}
+              <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 w-full sm:max-w-sm">
+                {t('info.description')}
               </p>
             </div>
 
@@ -79,7 +79,7 @@ function Contact() {
 
               <div className="flex flex-col">
                 <span className="text-xs text-gray-500 dark:text-gray-400">
-                  {t("info.emailLabel")}
+                  {t('info.emailLabel')}
                 </span>
                 <span className="text-sm text-gray-900 dark:text-white group-hover:underline">
                   abbosbekanvarjonov8@gmail.com
@@ -96,7 +96,7 @@ function Contact() {
 
               <div className="flex flex-col">
                 <span className="text-xs text-gray-500 dark:text-gray-400">
-                  {t("info.phoneLabel")}
+                  {t('info.phoneLabel')}
                 </span>
                 <span className="text-sm text-gray-900 dark:text-white group-hover:underline">
                   +49 173 475 91 22
@@ -105,7 +105,6 @@ function Contact() {
             </a>
 
             <div className="flex flex-col gap-4 mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
-    
               <div className="flex items-start gap-3">
                 <div className="p-2 rounded-lg border border-gray-200 dark:border-gray-700">
                   <FiCheckCircle className="text-green-500" />
@@ -113,10 +112,10 @@ function Contact() {
 
                 <div className="flex flex-col">
                   <span className="text-xs text-gray-500 dark:text-gray-400">
-                    {t("availability.label")}
+                    {t('availability.label')}
                   </span>
                   <span className="text-sm text-gray-900 dark:text-white">
-                    {t("availability.value")}
+                    {t('availability.value')}
                   </span>
                 </div>
               </div>
@@ -131,7 +130,7 @@ function Contact() {
                     Standort
                   </span>
                   <span className="text-sm text-gray-900 dark:text-white">
-                    {t("location")}
+                    {t('location')}
                   </span>
                 </div>
               </div>
@@ -142,11 +141,11 @@ function Contact() {
         <div className="flex-1 flex flex-col gap-4 border border-gray-200 dark:border-gray-700 rounded-xl p-4">
           <div>
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {t("social.titel")}
+              {t('social.titel')}
             </h3>
 
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-              {t("social.description")}
+              {t('social.description')}
             </p>
           </div>
 
@@ -167,7 +166,7 @@ function Contact() {
                 </h4>
 
                 <p className="text-xs text-gray-500 dark:text-gray-400">
-                  {t("social.github")}
+                  {t('social.github')}
                 </p>
               </div>
             </div>
@@ -190,7 +189,7 @@ function Contact() {
                 </h4>
 
                 <p className="text-xs text-gray-500 dark:text-gray-400">
-                  {t("social.linkedin")}
+                  {t('social.linkedin')}
                 </p>
               </div>
             </div>

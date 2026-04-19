@@ -46,8 +46,8 @@ function Hero() {
         <div className="flex flex-col gap-4">
           <motion.h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold 
-        bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 
-        bg-clip-text text-transparent"
+            bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 
+            bg-clip-text text-transparent"
             animate={{
               clipPath: ['inset(0 100% 0 0)', 'inset(0 0% 0 0)'],
             }}
@@ -84,8 +84,8 @@ function Hero() {
           </button>
           <span
             className="text-xs px-3 py-1 rounded-full 
-                 text-gray-600
-                 dark:text-gray-300 "
+                    text-gray-600
+                    dark:text-gray-300 "
           >
             {t('location')}
           </span>
@@ -127,35 +127,40 @@ function Hero() {
         </div>
       </div>
 
-      <div className="relative w-full max-w-sm flex justify-center items-center mx-auto">
-        <div
-          className="absolute -top-5 left-1/2 -translate-x-1/2 
-                w-[150%] h-[90%]
-                bg-gradient-to-br from-purple-500/30 via-pink-500/20 to-blue-500/30
-                blur-2xl opacity-50 rounded-full"
-        ></div>
+        <div className="relative w-full sm:max-w-sm flex justify-center items-center mx-auto px-2">
 
-        <motion.div
-          animate={{ y: [-10, 10] }}
-          transition={{
-            duration: 3,
-            repeat: Infinity,
-            repeatType: 'mirror',
-            ease: 'easeInOut',
-          }}
-          className="relative"
-        >
-          <div className="w-80 aspect-square overflow-hidden rounded-full shadow-[0_15px_15px_rgba(0,0,0,0.1)]">
-            <img
-              src="images/person.png"
-              alt="Profile"
-              className="w-full h-full object-cover"
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+               w-[80%] h-[80%]
+               blur-3xl opacity-40 rounded-full pointer-events-none"
+        style={{
+            background:
+            "radial-gradient(circle, rgba(168,85,247,0.4) 0%, rgba(236,72,153,0.3) 40%, rgba(59,130,246,0.3) 70%, transparent 80%)",
+            }}
             />
-          </div>
-        </motion.div>
-      </div>
+
+            <motion.div
+            animate={{ y: [-10, 10] }}
+            transition={{
+                duration: 3,
+                repeat: Infinity,
+                repeatType: "mirror",
+                ease: "easeInOut",
+            }}
+            className="relative"
+            >
+            <div className="w-80 aspect-square overflow-hidden rounded-full shadow-[0_15px_25px_rgba(0,0,0,0.15)]">
+                <img
+                src="/images/person.png"
+                alt="Profile"
+                className="w-full h-full object-cover"
+                />
+            </div>
+            </motion.div>
+        </div>
     </div>
   );
 }
 
 export default Hero;
+
+

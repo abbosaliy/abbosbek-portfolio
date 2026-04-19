@@ -17,7 +17,7 @@ export function Header() {
   ];
 
   return (
-    <>
+    <div>
       <header
         id="header"
         className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/70 dark:bg-gray-900/70 text-black dark:text-white border-b border-gray-200/100 dark:border-gray-700/80"
@@ -151,6 +151,6 @@ export function Header() {
           </>
         )}
       </AnimatePresence>
-    </>
+    </div>
   );
 }
