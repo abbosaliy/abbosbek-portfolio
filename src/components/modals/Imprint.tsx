@@ -1,12 +1,12 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 type Props = {
   onClose: () => void;
 };
 
 export default function ImpressumModal({ onClose }: Props) {
-     const { t } = useTranslation();
-    
+  const { t } = useTranslation();
+
   return (
     <div
       className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center z-50 p-4"
@@ -19,7 +19,7 @@ export default function ImpressumModal({ onClose }: Props) {
         <div className="flex justify-between items-start mb-6 pb-4 border-b border-gray-200 dark:border-gray-700">
           <div>
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-                {t("imprint")}
+              {t('imprint')}
             </h2>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
               Rechtliche Hinweise für diese Website

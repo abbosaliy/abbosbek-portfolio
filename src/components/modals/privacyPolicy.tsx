@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { useTranslation } from 'react-i18next';
 
 type Props = {
   onClose: () => void;
@@ -19,7 +19,7 @@ export default function DatenschutzModal({ onClose }: Props) {
         <div className="flex justify-between items-start p-6 border-b border-gray-200 dark:border-gray-700">
           <div>
             <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-              {t("policy")}
+              {t('policy')}
             </h2>
             <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
               Informationen zum Umgang mit personenbezogenen Daten gemäß DSGVO
@@ -142,9 +142,7 @@ export default function DatenschutzModal({ onClose }: Props) {
           </div>
 
           <div className="pt-4 border-t border-gray-200 dark:border-gray-700 flex gap-1">
-            <p className="text-xs text-gray-500 dark:text-gray-400">
-              Quelle:
-            </p>
+            <p className="text-xs text-gray-500 dark:text-gray-400">Quelle:</p>
 
             <a
               href="https://www.e-recht24.de"

@@ -11,8 +11,6 @@ function Hero() {
     if (projectsSection) {
       projectsSection.scrollIntoView({ behavior: 'smooth' });
     }
-
-   
   };
 
   const handleContactClick = () => {
@@ -20,7 +18,7 @@ function Hero() {
     if (contacSection) {
       contacSection.scrollIntoView({ behavior: 'smooth' });
     }
-  }
+  };
 
   return (
     <div className="max-w-[90rem] mx-auto px-4 sm:px-6 pt-40 lg:px-8 min-h-screen  flex flex-col lg:flex-row  justify-between   gap-10">
@@ -127,40 +125,38 @@ function Hero() {
         </div>
       </div>
 
-        <div className="relative w-full sm:max-w-sm flex justify-center items-center mx-auto px-2">
-
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
+      <div className="relative w-full sm:max-w-sm flex justify-center items-center mx-auto px-2">
+        <div
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
                w-[80%] h-[80%]
                blur-3xl opacity-40 rounded-full pointer-events-none"
-        style={{
+          style={{
             background:
-            "radial-gradient(circle, rgba(168,85,247,0.4) 0%, rgba(236,72,153,0.3) 40%, rgba(59,130,246,0.3) 70%, transparent 80%)",
-            }}
-            />
+              'radial-gradient(circle, rgba(168,85,247,0.4) 0%, rgba(236,72,153,0.3) 40%, rgba(59,130,246,0.3) 70%, transparent 80%)',
+          }}
+        />
 
-            <motion.div
-            animate={{ y: [-10, 10] }}
-            transition={{
-                duration: 3,
-                repeat: Infinity,
-                repeatType: "mirror",
-                ease: "easeInOut",
-            }}
-            className="relative"
-            >
-            <div className="w-80 aspect-square overflow-hidden rounded-full shadow-[0_15px_25px_rgba(0,0,0,0.15)]">
-                <img
-                src="/images/person.png"
-                alt="Profile"
-                className="w-full h-full object-cover"
-                />
-            </div>
-            </motion.div>
-        </div>
+        <motion.div
+          animate={{ y: [-10, 10] }}
+          transition={{
+            duration: 3,
+            repeat: Infinity,
+            repeatType: 'mirror',
+            ease: 'easeInOut',
+          }}
+          className="relative"
+        >
+          <div className="w-80 aspect-square overflow-hidden rounded-full shadow-[0_15px_25px_rgba(0,0,0,0.15)]">
+            <img
+              src="/images/person.png"
+              alt="Profile"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </motion.div>
+      </div>
     </div>
   );
 }
 
 export default Hero;
-
-

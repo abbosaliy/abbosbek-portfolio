@@ -1,14 +1,9 @@
-import React from "react";
-import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
-import {
-  FiCheckCircle,
-  FiMail,
-  FiMapPin,
-  FiPhone,
-} from "react-icons/fi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { GoArrowUpRight } from "react-icons/go";
+import React from 'react';
+import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { FiCheckCircle, FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { GoArrowUpRight } from 'react-icons/go';
 
 function Contact() {
   const { t } = useTranslation();
@@ -16,7 +11,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="max-w-[90rem] mx-auto px-4 sm:px-6 pt-40 lg:px-8 min-h-screen flex flex-col gap-12"
+      className="max-w-[90rem] mx-auto px-4 sm:px-6 p-40 lg:px-8 min-h-screen flex flex-col gap-12"
     >
       <div className="flex flex-col max-w-3xl gap-5">
         <motion.h2
@@ -49,7 +44,7 @@ function Contact() {
           {t('contactDescription')}
         </motion.p>
       </div>
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-8 ">
         <div className="flex-1 flex flex-col gap-5 border border-gray-200 dark:border-gray-700 rounded-xl p-5 transition hover:shadow-md">
           <div className="flex justify-between items-start gap-4">
             <div>

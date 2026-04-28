@@ -1,16 +1,16 @@
-import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
-import ImpressumModal from "./modals/Imprint";
-import DatenschutzModal from "./modals/privacyPolicy";
+import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa6';
+import ImpressumModal from './modals/Imprint';
+import DatenschutzModal from './modals/privacyPolicy';
 
 function Footer() {
-  const [modal, setModal] = useState<"impressum" | "datenschutz" | null>(null);
+  const [modal, setModal] = useState<'impressum' | 'datenschutz' | null>(null);
   const { t } = useTranslation();
 
   return (
-    <section className="border-t border-gray-200 dark:border-gray-700">
+    <section className="border-t border-gray-200  dark:border-gray-700">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 pt-10 lg:px-8 pb-10">
         <div className="flex flex-col md:flex-row justify-between gap-10">
           <div className="w-full sm:max-w-sm flex flex-col gap-3">

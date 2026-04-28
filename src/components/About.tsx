@@ -11,7 +11,6 @@ type Experience = {
   description: string[];
 };
 
-
 function About() {
   const { t } = useTranslation();
   const data = t('experience', { returnObjects: true }) as Experience[];

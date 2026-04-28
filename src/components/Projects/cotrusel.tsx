@@ -40,7 +40,7 @@ export default function ProjectCarousel() {
   }, [activeProject]);
 
   return (
-    <div className="relative mt-10">
+    <div className="relative mt-10 mb-10">
       <button className="swiper-prev absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/80 dark:bg-gray-800/80 backdrop-blur text-gray-800 dark:text-gray-200 p-3 rounded-full shadow-md dark:shadow-gray-700/50 hover:scale-110 transition duration-200">
         <FaChevronLeft />
       </button>
@@ -73,7 +73,7 @@ export default function ProjectCarousel() {
           <SwiperSlide key={item.id}>
             <div
               onClick={() => setActiveProject(item)}
-              className="h-[400px] flex flex-col rounded-xl overflow-hidden border border-gray-300 dark:border-gray-700 cursor-pointer bg-white dark:bg-gray-900 shadow-sm hover:shadow-lg hover:-translate-y-1 transition"
+              className="h-[400px] flex flex-col  rounded-xl overflow-hidden border border-gray-300 dark:border-gray-700 cursor-pointer bg-white dark:bg-gray-900 shadow-sm hover:shadow-lg hover:-translate-y-1 transition"
             >
               <div className="h-[65%] overflow-hidden">
                 <img

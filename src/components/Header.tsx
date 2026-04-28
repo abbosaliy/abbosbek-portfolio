@@ -23,7 +23,7 @@ export function Header() {
         className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/70 dark:bg-gray-900/70 text-black dark:text-white border-b border-gray-200/100 dark:border-gray-700/80"
       >
         <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 ">
-          <a href="header">
+          <a href="#header">
             <div className="flex items-center gap-2 cursor-pointer">
               <div className="relative h-14 w-14 flex items-center justify-center hover:scale-105 duration-300 ">
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 blur-lg opacity-25"></div>
