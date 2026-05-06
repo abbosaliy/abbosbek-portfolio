@@ -28,16 +28,13 @@ function Hero() {
             PORTFOLIO 2026
           </span>
 
-          <span className="flex items-center gap-2 rounded-xl bg-violet-500/10 px-3 py-1 font-semibold text-xs text-black/80 dark:text-white/80">
-            <span className="relative flex h-2.5 w-2.5">
-              <motion.span
-                className="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"
-                animate={{ scale: [1, 1.6, 1], opacity: [0.7, 0, 0.7] }}
-                transition={{ duration: 1.5, repeat: Infinity }}
-              />
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
-            </span>
-            {t('status')}
+          <span className="relative flex h-2.5 w-2.5 items-center justify-center">
+            <motion.span
+              className="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"
+              animate={{ scale: [1, 1.6, 1], opacity: [0.7, 0, 0.7] }}
+              transition={{ duration: 1.5, repeat: Infinity }}
+            />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
           </span>
         </div>
 
