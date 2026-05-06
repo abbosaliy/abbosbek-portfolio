@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
 
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -27,7 +26,6 @@ export default function ProjectCarousel() {
   const raw = t('resources', { returnObjects: true });
   const projects = Array.isArray(raw) ? raw : [];
 
-  // Lock body scroll when modal is open
   React.useEffect(() => {
     if (activeProject) {
       document.body.style.overflow = 'hidden';

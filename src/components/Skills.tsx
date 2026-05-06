@@ -8,6 +8,7 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
+  FaDocker,
 } from 'react-icons/fa';
 import { SiTypescript, SiVite, SiSupabase, SiShadcnui } from 'react-icons/si';
 import { MdApi } from 'react-icons/md';
@@ -24,18 +25,24 @@ function Skills() {
   const { t } = useTranslation();
   const skills = [
     {
-      name: 'HTML',
-      icon: <FaHtml5 className="text-orange-500" />,
+      name: 'Tailwind CSS',
+      icon: <SiTailwindcss className="text-cyan-400" />,
       category: 'ui',
     },
+
     {
       name: 'CSS/SCSS',
       icon: <FaCss3Alt className="text-blue-500" />,
       category: 'ui',
     },
     {
-      name: 'JavaScript',
-      icon: <FaJs className="text-yellow-400" />,
+      name: 'HTML',
+      icon: <FaHtml5 className="text-orange-500" />,
+      category: 'ui',
+    },
+    {
+      name: 'React',
+      icon: <FaReact className="text-cyan-400" />,
       category: 'frontend',
     },
     {
@@ -44,18 +51,13 @@ function Skills() {
       category: 'frontend',
     },
     {
-      name: 'React',
-      icon: <FaReact className="text-cyan-400" />,
+      name: 'JavaScript',
+      icon: <FaJs className="text-yellow-400" />,
       category: 'frontend',
     },
     {
-      name: 'Tailwind CSS',
-      icon: <SiTailwindcss className="text-cyan-400" />,
-      category: 'ui',
-    },
-    {
-      name: 'Bootstrap',
-      icon: <SiBootstrap className="text-purple-600" />,
+      name: 'shadcn/ui',
+      icon: <SiShadcnui className="text-gray-700 dark:text-gray-300" />,
       category: 'ui',
     },
     {
@@ -64,11 +66,16 @@ function Skills() {
       category: 'ui',
     },
     {
-      name: 'shadcn/ui',
-      icon: <SiShadcnui className="text-gray-700 dark:text-gray-300" />,
+      name: 'Bootstrap',
+      icon: <SiBootstrap className="text-purple-600" />,
       category: 'ui',
     },
 
+    {
+      name: 'Docker',
+      icon: <FaDocker className="text-blue-500" />,
+      category: 'tools',
+    },
     {
       name: 'Git',
       icon: <FaGitAlt className="text-orange-600" />,
@@ -92,7 +99,7 @@ function Skills() {
     {
       name: 'Supabase',
       icon: <SiSupabase className="text-green-600" />,
-      category: 'tools',
+      category: 'api',
     },
     {
       name: 'GitHub Copilot',

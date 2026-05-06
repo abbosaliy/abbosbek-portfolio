@@ -5,7 +5,7 @@
   "contact": "Kontakt",
   "status": "Offen für neue Projekte",
   "title": "Frontend - Entwickler",
-  "subtitle": "Ich entwickle skalierbare und performante Webanwendungen mit React und TypeScript und verbinde sauberen Code mit modernen, benutzerfreundlichen und ästhetischen Interfaces.",
+  "subtitle": "Ich entwickle skalierbare und performante Webanwendungen mit React und TypeScript und verbinde Clean Code mit modernen, benutzerfreundlichen und ästhetischen Interfaces.",
   "subDescription": "Mein Fokus liegt auf der Entwicklung klar strukturierter, wartbarer Frontend-Architekturen mit wiederverwendbaren Komponenten und durchdachtem State-Management. Dabei lege ich großen Wert auf Performance, Skalierbarkeit und eine intuitive User Experience.",
   "projectsButton": "Projekte ansehen",
   "contactButton": "Kontakt",
@@ -15,13 +15,6 @@
   "journey": "Entwicklungsweg",
   "scrollHint": "Horizontal scrollen, um mehr zu sehen",
   "experience": [
-    {
-      "period": "10/2024 - 10/2025",
-      "company": "PDP Academy",
-      "role": "Frontend Developer",
-      "location": "Remote",
-      "description": [" HTML", "CSS/SCSS", "JavaScript", "Responsive Design"]
-    },
     {
       "period": "10/2024 - 10/2025",
       "company": "DevKarriere",
@@ -42,7 +35,7 @@
       ]
     },
     {
-      "period": "10/2025 - bis jetzt",
+      "period": "10/2025 - 03/2026",
       "company": "Eigenes Projekt",
       "role": "Frontend Developer",
       "location": "Remote",
@@ -59,6 +52,25 @@
         "Supabase",
         "SQL",
         "SaaS Projekt"
+      ]
+    },
+    {
+      "period": "04/2026 - bis jetzt",
+      "company": "Global Softline Group LLC",
+      "role": "Frontend Developer",
+      "location": "Remote/Usbekistan",
+      "description": [
+        " HTML",
+        "CSS/SCSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Git",
+        "GitHub",
+        "Rest API",
+        "Vite",
+        "Docker",
+        "LMS Project"
       ]
     },
     {

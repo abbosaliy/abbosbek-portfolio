@@ -17,16 +17,9 @@
   "experience": [
     {
       "period": "10/2024 - 10/2025",
-      "company": "PDP Academy",
-      "role": "Frontend Developer",
-      "location": "Remote",
-      "description": [" HTML", "CSS/SCSS", "JavaScript", "Responsive Design"]
-    },
-    {
-      "period": "10/2024 - 10/2025",
       "company": "DevKarriere",
       "role": "Qualified Web Developer Front-End",
-      "location": "Remote",
+      "location": "Remote/Germany",
       "description": [
         " HTML",
         "CSS/SCSS",
@@ -42,7 +35,7 @@
       ]
     },
     {
-      "period": "10/2025 - present",
+      "period": "10/2025 - 03/2026",
       "company": "Own Project",
       "role": "Frontend Developer",
       "location": "Remote",
@@ -59,6 +52,25 @@
         "Supabase",
         "SQL",
         "SaaS Project"
+      ]
+    },
+    {
+      "period": "04/2026 - until now",
+      "company": "Global Softline Group LLC",
+      "role": "Frontend Developer",
+      "location": "Remote/Uzbekistan",
+      "description": [
+        " HTML",
+        "CSS/SCSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Git",
+        "GitHub",
+        "Rest API",
+        "Vite",
+        "Docker",
+        "LMS Project"
       ]
     },
     {
