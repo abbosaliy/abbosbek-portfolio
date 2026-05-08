@@ -11,7 +11,7 @@
   "contactButton": "Kontakt",
   "location": "Deutschland · Vor Ort & Remote verfügbar · Deutsch, Englisch",
   "aboutTitle": "Meine Reise als Entwickler: Von einfachen HTML-Seiten zu skalierbaren React-Anwendungen und meinen eigenen SaaS-Projekten",
-  "aboutContent": "Ich bin Frontend Developer mit Fokus auf React und TypeScript. Ich entwickle moderne Webanwendungen und lege großen Wert auf skalierbare Architektur, Performance und intuitive Benutzeroberflächen. Sauberer Code und kontinuierliches Lernen sind für mich selbstverständlich.",
+  "aboutContent": "Ich bin Frontend Developer mit Fokus auf React und TypeScript. Ich entwickle moderne Webanwendungen und lege großen Wert auf skalierbare Architektur, Performance und intuitive Benutzeroberflächen. Clean Code und kontinuierliches Lernen sind für mich selbstverständlich.",
   "journey": "Entwicklungsweg",
   "scrollHint": "Horizontal scrollen, um mehr zu sehen",
   "experience": [
@@ -21,11 +21,11 @@
       "role": "Qualifizierte Webentwickler Front-End",
       "location": "Remote",
       "description": [
+        "React",
+        "TypeScript",
         " HTML",
         "CSS/SCSS",
         "JavaScript",
-        "TypeScript",
-        "React",
         "Git",
         "GitHub",
         "Rest API",
@@ -40,11 +40,11 @@
       "role": "Frontend Developer",
       "location": "Remote",
       "description": [
+        "React",
+        "TypeScript",
+        "JavaScript",
         " HTML",
         "CSS/SCSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
         "Git",
         "GitHub",
         "Rest API",
@@ -60,11 +60,11 @@
       "role": "Frontend Developer",
       "location": "Remote/Usbekistan",
       "description": [
+        "React",
+        "TypeScript",
+        "JavaScript",
         " HTML",
         "CSS/SCSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
         "Git",
         "GitHub",
         "Rest API",
@@ -108,7 +108,7 @@
       "title": "Flowdex - SaaS Plattform für Workflow-Management",
       "description": "SaaS-Plattform zur Verwaltung und Optimierung kollaborativer Workflows.",
       "fulldescription": "Flowdex ist eine eigenständig entwickelte, SaaS-ähnliche Plattform zur Verwaltung kollaborativer Workflows. Die Anwendung ermöglicht es, komplexe Arbeitsprozesse übersichtlich zu organisieren, Aufgaben effizient zu koordinieren und den Fortschritt in Echtzeit zu verfolgen. Durch eine klar strukturierte Oberfläche und eine skalierbare Architektur wird eine stabile und performante Nutzererfahrung gewährleistet. Der Fokus lag auf wiederverwendbaren Komponenten, einer durchdachten Zustandsverwaltung und einer intuitiven Benutzerführung, um effizientes Arbeiten im Team zu unterstützen.",
-      "technologies": ["TypeScript", "React", "Tailwind CSS", "Supabase"],
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Supabase"],
       "live": "https://flowdeex.netlify.app",
       "liveGithub": "https://github.com/abbosaliy/Flowdex"
     },
@@ -118,7 +118,7 @@
       "title": "CargoSync",
       "description": "SaaS-ähnliche Logistikplattform zur Echtzeit-Verwaltung von Lieferprozessen.",
       "fulldescription": "CargoSync ist eine eigenständig entwickelte, SaaS-ähnliche Logistikplattform zur effizienten Verwaltung und Nachverfolgung von Lieferprozessen in Echtzeit. Die Anwendung bietet eine klare und strukturierte Benutzeroberfläche, die es ermöglicht, den aktuellen Status von Sendungen jederzeit übersichtlich darzustellen. Durch die Implementierung einer skalierbaren Architektur und performanter Datenverarbeitung wird eine stabile und reaktionsschnelle Nutzererfahrung gewährleistet. Der Fokus lag auf modularen Komponenten, optimierten Datenflüssen und einer intuitiven Bedienung, um komplexe Logistikprozesse einfach und verständlich abzubilden.",
-      "technologies": ["TypeScript", "React", "Tailwind CSS", "Supabase"],
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Supabase"],
       "live": "https://cargosync.abbosbek-anvarjonov.com",
       "liveGithub": "https://github.com/abbosaliy/CargoSync"
     },
@@ -137,7 +137,7 @@
       "title": "Wetter App",
       "description": "Moderne Wetter-App zur Anzeige aktueller Wetterdaten weltweit.",
       "fulldescription": "Diese Wetter-App wurde als moderne, benutzerfreundliche Anwendung entwickelt, um aktuelle Wetterdaten für Städte weltweit übersichtlich darzustellen. Die Anwendung folgt einem Mobile-First-Ansatz und ist für verschiedene Bildschirmgrößen optimiert. Nutzer haben die Möglichkeit, Städte zu suchen, als Favoriten zu speichern und ihre persönliche Liste flexibel zu verwalten. Der Fokus lag auf einer klaren Benutzeroberfläche, schneller Datenanzeige und einer intuitiven Bedienung.",
-      "technologies": ["HTML", "JavaScript", "SCSS", "VIte", "Weather API"],
+      "technologies": ["JavaScript", "HTML", "SCSS", "Vite", "Weather API"],
       "live": "https://wetter-app.abbosbek-anvarjonov.com",
       "liveGithub": "https://github.com/abbosaliy/Wetter-App"
     },
@@ -147,7 +147,7 @@
       "title": "Witze App",
       "description": "Humorvolle Witze-App mit modernem Design und API-Integration.",
       "fulldescription": "Diese Witze-App wurde mit Fokus auf modernes Design und eine angenehme Benutzererfahrung entwickelt. Die Anwendung ist vollständig responsive und passt sich nahtlos an verschiedene Geräte und Bildschirmgrößen an. Sie bietet sowohl einen hellen als auch einen dunklen Modus und ermöglicht es, zufällige Witze über eine externe API zu laden. Ziel war es, eine einfache, unterhaltsame und schnell zugängliche Anwendung zu schaffen, die Nutzern jederzeit einen kleinen humorvollen Moment bietet.",
-      "technologies": [" HTML", "SCSS", "JavaScript", "Vite", "BEM", "AJAX"],
+      "technologies": ["JavaScript", "HTML", "SCSS", "Vite", "BEM", "AJAX"],
       "live": "https://witze-app.abbosbek-anvarjonov.com",
       "liveGithub": "https://github.com/abbosaliy/Witze-app"
     }

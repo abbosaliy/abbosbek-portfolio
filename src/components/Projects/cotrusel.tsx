@@ -107,16 +107,19 @@ export default function ProjectCarousel() {
                 </p>
 
                 <div className="flex items-center justify-between gap-2 mt-2">
-                  {item.technologies && item.technologies.length > 0 && (
-                    <p className="text-xs font-medium text-gray-500 dark:text-gray-200 flex flex-wrap gap-1">
-                      {item.technologies.map((tech: string, idx: number) => (
-                        <span key={idx}>
-                          {tech}
-                          {idx < item.technologies!.length - 1 && ', '}
-                        </span>
-                      ))}
-                    </p>
-                  )}
+                  <div className="border border-gray-200 dark:border-gray-700 rounded-full px-3 py-1">
+                    {item.technologies && item.technologies.length > 0 && (
+                      <p className="text-xs font-medium text-gray-500 dark:text-gray-200 flex flex-wrap gap-1">
+                        {item.technologies.map((tech: string, idx: number) => (
+                          <span key={idx}>
+                            {tech}
+                            {idx < item.technologies!.length - 1 && ', '}
+                          </span>
+                        ))}
+                      </p>
+                    )}
+                  </div>
+
                   <button className="mt-auto px-4 py-2 bg-purple-500 text-white rounded-lg text-sm hover:opacity-90">
                     {t('details')}
                   </button>
@@ -148,7 +151,7 @@ export default function ProjectCarousel() {
                   <IoCloseSharp className="w-5 h-5" />
                 </button>
               </div>
-              <h2 className="font-bold text-gray-900 dark:text-white/90">
+              <h2 className="font-bold text-xl text-gray-900 dark:text-white/90">
                 {activeProject.title}
               </h2>
             </div>
@@ -193,7 +196,7 @@ export default function ProjectCarousel() {
                       )}
                   </div>
                 </div>
-                <div className="border-gray-200 dark:border-gray-700">
+                <div className="border-gray-200 pb-4 dark:border-gray-700">
                   <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
                     {activeProject.fulldescription}
                   </p>

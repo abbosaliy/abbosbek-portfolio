@@ -21,11 +21,11 @@
       "role": "Qualified Web Developer Front-End",
       "location": "Remote/Germany",
       "description": [
+        "React",
+        "TypeScript",
+        "JavaScript",
         " HTML",
         "CSS/SCSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
         "Git",
         "GitHub",
         "Rest API",
@@ -40,11 +40,11 @@
       "role": "Frontend Developer",
       "location": "Remote",
       "description": [
+        "React",
+        "TypeScript",
+        "JavaScript",
         " HTML",
         "CSS/SCSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
         "Git",
         "GitHub",
         "Rest API",
@@ -60,11 +60,11 @@
       "role": "Frontend Developer",
       "location": "Remote/Uzbekistan",
       "description": [
+        "React",
+        "TypeScript",
+        "JavaScript",
         " HTML",
         "CSS/SCSS",
-        "JavaScript",
-        "TypeScript",
-        "React",
         "Git",
         "GitHub",
         "Rest API",
@@ -118,7 +118,7 @@
       "description": "SaaS-like logistics platform for real-time delivery management.",
       "fulldescription": "CargoSync is a self-developed, SaaS-like logistics platform designed for efficient management and real-time tracking of delivery processes. The application provides a clear and structured user interface that allows users to monitor shipment statuses in an intuitive way. By implementing a scalable architecture and optimized data handling, a stable and responsive user experience is ensured. The focus was on modular components, efficient data flows, and an intuitive design to simplify complex logistics operations.",
       "technologies": ["TypeScript", "React", "Tailwind CSS", "Supabase"],
-      "live": "https://cargosync.abbosbek-anvarjonov.com"
+      "live": "https://cargosync.netlify.app"
     },
     {
       "id": 3,
@@ -134,8 +134,8 @@
       "title": "Weather App",
       "description": "Modern weather app for displaying real-time weather data worldwide.",
       "fulldescription": "This weather app was developed as a modern, user-friendly application to display real-time weather data for cities around the world. Built with a mobile-first approach, it is optimized for various screen sizes and devices. Users can search for locations, save them to a favorites list, and manage their personalized list easily. The focus was on a clean interface, fast data display, and an intuitive user experience.",
-      "technologies": ["HTML", "JavaScript", "SCSS", "VIte", "Weather API"],
-      "live": "https://wetter-app.abbosbek-anvarjonov.com"
+      "technologies": ["JavaScript", "HTML", "SCSS", "Vite", "Weather API"],
+      "live": "https://wetter-app-abbos.netlify.app"
     },
     {
       "id": 5,
@@ -143,8 +143,8 @@
       "title": "Joke App",
       "description": "Humorous joke app with modern design and API integration.",
       "fulldescription": "This joke app was developed with a focus on modern design and a smooth user experience. The application is fully responsive and adapts seamlessly to different devices and screen sizes. It features both light and dark modes and allows users to fetch random jokes from an external API. The goal was to create a simple, entertaining, and easily accessible app that delivers a quick moment of humor anytime.",
-      "technologies": [" HTML", "SCSS", "JavaScript", "Vite", "BEM", "AJAX"],
-      "live": "https://witze-app.abbosbek-anvarjonov.com"
+      "technologies": ["JavaScript", " HTML", "SCSS", "Vite", "BEM", "AJAX"],
+      "live": "https://witze-app.netlify.app"
     }
   ],
   "contactTitel": "New Career Opportunities",
