@@ -83,10 +83,10 @@ function Footer() {
                     {t('info.emailLabel')}
                   </span>
                   <a
-                    href="abbosbekanvarjonov8@gmail.com"
+                    href="mailto:contactabbosbek@gmail.com"
                     className="text-gray-900 dark:text-white"
                   >
-                    abbosbekanvarjonov8@gmail.com
+                    contactabbosbek@gmail.com
                   </a>
                 </div>
 

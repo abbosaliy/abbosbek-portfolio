@@ -65,7 +65,7 @@ function Contact() {
 
           <div className="flex flex-col gap-4 mt-2">
             <a
-              href="abbosbekanvarjonov8@gmail.com"
+              href="mailto:contactabbosbek@gmail.com"
               className="flex items-center gap-3 group"
             >
               <div className="p-2 rounded-lg border border-gray-200 dark:border-gray-700 group-hover:bg-gray-100 dark:group-hover:bg-gray-800 transition">
@@ -77,7 +77,7 @@ function Contact() {
                   {t('info.emailLabel')}
                 </span>
                 <span className="text-sm text-gray-900 dark:text-white group-hover:underline">
-                  abbosbekanvarjonov8@gmail.com
+                  contactabbosbek@gmail.com
                 </span>
               </div>
             </a>
