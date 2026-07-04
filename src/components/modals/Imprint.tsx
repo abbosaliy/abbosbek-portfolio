@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { MdOutlineCancel } from 'react-icons/md';
 
 type Props = {
   onClose: () => void;
@@ -30,7 +31,7 @@ export default function ImpressumModal({ onClose }: Props) {
             onClick={onClose}
             className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition"
           >
-            ✕
+           <MdOutlineCancel className="text-gray-500 dark:text-gray-400 w-5 h-5" />
           </button>
         </div>
 
@@ -53,7 +54,7 @@ export default function ImpressumModal({ onClose }: Props) {
 
             <div className="flex flex-col gap-1 text-gray-600 dark:text-gray-400">
               <p>Telefon: 01734759122</p>
-              <p>E-Mail: abbosbekanvarjonov8@gmail.com</p>
+              <p>E-Mail: contactabbosbek@gmail.com</p>
             </div>
           </div>
           <div className="pt-4 border-t border-gray-200 dark:border-gray-700 flex items-center gap-2">
